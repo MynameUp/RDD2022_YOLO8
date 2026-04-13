@@ -10,7 +10,7 @@ def main():
     # 保存的检测图片（带可视化框）
     """
     results = model.predict(
-        source="../datasets/rdd2022_yolo/images/val",
+        source="../RDD2022/China_MotorBike/test/images",
         imgsz=640,
         conf=0.25,
         save=True,
