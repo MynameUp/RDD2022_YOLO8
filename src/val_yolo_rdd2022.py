@@ -1,19 +1,3 @@
-# from ultralytics import YOLO
-#
-# def main():
-#     model = YOLO("runs/rdd2022/yolov8_road_damage/weights/best.pt")
-#
-#     metrics = model.val(
-#         data="datasets/rdd2022_yolo/dataset.yaml",
-#         imgsz=640,
-#         batch=16,
-#         device=0
-#     )
-#
-#     print(metrics)
-#
-# if __name__ == "__main__":
-#     main()
 from ultralytics import YOLO
 
 def main():
